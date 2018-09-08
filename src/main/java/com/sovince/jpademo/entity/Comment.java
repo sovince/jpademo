@@ -1,5 +1,7 @@
 package com.sovince.jpademo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Date;
 import java.util.Set;
@@ -20,6 +22,7 @@ public class Comment {
     @JoinColumn(name = "user_id")
     private User user;
 
+    @JsonIgnore
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "weibo_id")
     private Weibo weibo;
