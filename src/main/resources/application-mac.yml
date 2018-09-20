@@ -13,3 +13,7 @@ spring:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
+wechat:
+  appId: wxcff53b2cbf2535ea
+  secret: 2e3345bf7fc8647ef50e3a7e3dde0de6
+

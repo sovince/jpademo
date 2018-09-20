@@ -8,3 +8,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+wechat:
+  appId: wxcff53b2cbf2535ea
+  secret: 2e3345bf7fc8647ef50e3a7e3dde0de6
